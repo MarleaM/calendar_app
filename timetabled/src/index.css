@@ -4,7 +4,10 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh; 
+  background-image: url(./assets/background.png);
 }
+
+
 
 th {
   width: 120px;
@@ -21,11 +24,19 @@ td {
 }
 
 .Event {
-  width: 100px;
+  width: 90%;
+  color:rgb(190, 219, 229);
+  height: 100%;
+  padding: 50px 35px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+  backdrop-filter: blur(5px);
 }
 
 .Event h6, h5 {
-  line-height: 0px;
+  line-height: 60px;
   align-content: center;
 }
 
@@ -37,7 +48,4 @@ td {
   background: rgb(190, 219, 229);
 }
 
-.green {
-  background: rgb(202, 245, 222);
-}
 

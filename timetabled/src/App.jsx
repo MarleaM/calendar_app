@@ -13,7 +13,14 @@ const App = () => {
       <h2>
         This is my cool calendar app
       </h2>
+      <h2>
+        Anti-Recomended      
+      </h2>
       <Calendar /> 
+      <h2>
+        Recomended      
+      </h2>
+        <Calendar /> 
     </div>
 
   )
